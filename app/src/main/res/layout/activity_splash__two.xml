@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fashantapp.screensplash.Splash_Two">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/fashion" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#696969"
+        android:textSize="20sp"
+        android:text="Always updated in fashion trends" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="17dp"
+android:gravity="center_horizontal"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#A9A9A9"
+        android:textSize="14sp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and type settings industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make type specimen"
+      />
+
+
+    <Button
+        android:id="@+id/getstarted"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="#000"
+        android:layout_below="@+id/textView4"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="GET STARTED" />
+
+</RelativeLayout>

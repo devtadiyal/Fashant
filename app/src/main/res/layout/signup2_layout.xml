@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    android:padding="10dp">
+
+    <TextView
+        fontPath="fonts/Raleway-Regular.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="35sp"
+        android:gravity="center|bottom"
+        android:text="Please enter code"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|bottom"
+        android:text="@string/enter_4_digits_code"
+        android:textColor="@color/colorDarkGray"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:hint="@string/resend"/>
+
+    <Button
+        android:id="@+id/continu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000"
+        android:text="@string/next"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</LinearLayout>
